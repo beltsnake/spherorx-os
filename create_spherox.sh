@@ -12,7 +12,7 @@ sudo apt-get install syslinux squashfs-tools genisoimage
 mkdir /home/spherox-os
 cd spherox-os
 
-sudo sudo debootstrap --arch=amd64 trusty chroot
+sudo debootstrap --arch=amd64 trusty chroot
 
 sudo mount --bind /dev chroot/dev
 
